@@ -2,10 +2,38 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int quant;
+    int choice;
+    //Quantity variables
+    int QuantityRooms = 0, QuantityPasta = 0, QuantityBurger = 0, QuantityNoodles = 0, QuantityChicken = 0;
+    //Sold amount variables
+    int SoldRooms = 0, SoldPasta = 0, SoldBurger = 0, SoldNoodles = 0, SoldChicken = 0;
+    //Total price of items
+    int TotalPriceRooms = 0, TotalPricePasta = 0, TotalPriceBurger = 0, TotalPriceNoodles = 0, TotalPriceChicken = 0;
+
+    cout << "\n\t Quantity of items we have";
+    cout << "\n Rooms available: ";
+    cin >> QuantityRooms;
+
+    cout << "\n Quantity of Pasta: ";
+    cin >> QuantityPasta;
+
+    cout << "\n Quantity of Burger: ";
+    cin >> QuantityBurger;
+
+    cout << "\n Quantity of Noodles: ";
+    cin >> QuantityNoodles;
+
+    cout << "\n Quantity of ChickenRoll: ";
+    cin >> QuantityChicken;
+
+
+    
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
