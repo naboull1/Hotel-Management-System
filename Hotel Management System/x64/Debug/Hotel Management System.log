@@ -1,3 +1,7 @@
 ﻿  Hotel Management System.cpp
-D:\Coding\Hotel Management System\Hotel Management System\Hotel Management System.cpp(71,47): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\Hotel Management System\Hotel Management System\Hotel Management System.cpp(74,47): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\Hotel Management System\Hotel Management System\Hotel Management System.cpp(98,53): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\Hotel Management System\Hotel Management System\Hotel Management System.cpp(121,55): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\Hotel Management System\Hotel Management System\Hotel Management System.cpp(144,51): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\Hotel Management System\Hotel Management System\Hotel Management System.cpp(167,55): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   Hotel Management System.vcxproj -> D:\Coding\Hotel Management System\Hotel Management System\x64\Debug\Hotel Management System.exe
