@@ -61,10 +61,10 @@ int main()
             cout << "\n\n You have " << QuantityRooms - SoldRooms << " left ";
         }
         else
-        {
+        
             cout << "\n\tOnly" << QuantityRooms - SoldRooms << "Rooms reamining";
             break;
-        }
+        
     case 2:
         cout << "\n\n Enter Pasta Quantity: ";
         cin >> quantity;
@@ -83,10 +83,10 @@ int main()
             }
         }
         else
-        {
+        
             cout << "\n\tOnly" << QuantityPasta - SoldPasta << "Pasta's are remaining";
             break;
-        }
+        
     
 
         case 3:
@@ -107,10 +107,10 @@ int main()
                 }
             }
             else
-            {
+            
                 cout << "\n\tOnly" << QuantityPasta - SoldPasta << " Burgers are remaining";
                 break;
-            }
+            
 
         case 4:
             cout << "\n\n Enter Noodles Quantity: ";
@@ -130,10 +130,10 @@ int main()
                 }
             }
             else
-            {
+            
                 cout << "\n\tOnly" << QuantityNoodles - SoldNoodles << " Noodles are remaining";
                 break;
-            }
+            
 
         case 5:
             cout << "\n\n Enter Shake Quantity: ";
@@ -153,10 +153,10 @@ int main()
                 }
             }
             else
-            {
+            
                 cout << "\n\tOnly" << QuantityShake - SoldShake << " Shakes are remaining";
                 break;
-            }
+            
 
         case 6:
             cout << "\n\n Enter Chicken Roll Quantity: ";
@@ -176,10 +176,10 @@ int main()
                 }
             }
             else
-            {
+            
                 cout << "\n\tOnly" << QuantityChicken - SoldChicken << " Chicken are remaining";
                 break;
-            }
+            
 
         case 7:
             cout << "\n\t\tDetails of sales and collections ";
@@ -217,6 +217,9 @@ int main()
             cout << "\n\n Number of Chicken we rented out: " << SoldChicken;
             cout << "\n\n Number of Chicken we have available: " << QuantityChicken - SoldChicken;
             cout << "\n\n Total amount made on Chicken today: " << TotalPriceChicken;
+
+            cout << "\n\n\n Total collection for the day:  " << TotalPriceRooms + TotalPriceBurger + TotalPriceChicken + TotalPriceNoodles + TotalPricePasta + TotalPriceShake;
+            break;
 
         case 8:
                 exit(0);
