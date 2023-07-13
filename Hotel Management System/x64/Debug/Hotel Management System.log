@@ -1,4 +1,2 @@
 ﻿  Hotel Management System.cpp
-D:\Coding\Hotel Management System\Hotel Management System\Hotel Management System.cpp(10,9): warning C4101: 'choice': unreferenced local variable
-D:\Coding\Hotel Management System\Hotel Management System\Hotel Management System.cpp(9,9): warning C4101: 'quant': unreferenced local variable
   Hotel Management System.vcxproj -> D:\Coding\Hotel Management System\Hotel Management System\x64\Debug\Hotel Management System.exe

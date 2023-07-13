@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int quant;
+    int quantity;
     int choice;
     //Quantity variables
     int QuantityRooms = 0, QuantityPasta = 0, QuantityBurger = 0, QuantityNoodles = 0, QuantityChicken = 0;
@@ -15,7 +15,7 @@ int main()
     //Total price of items
     int TotalPriceRooms = 0, TotalPricePasta = 0, TotalPriceBurger = 0, TotalPriceNoodles = 0, TotalPriceChicken = 0;
 
-    cout << "\n\t Quantity of items we have";
+    cout << "\n\t Welcome to the start of your shift, please count available items";
     cout << "\n Rooms available: ";
     cin >> QuantityRooms;
 
@@ -31,7 +31,43 @@ int main()
     cout << "\n Quantity of ChickenRoll: ";
     cin >> QuantityChicken;
 
+    cout << "Quantity amounts received and saved";
+    cout << "\n\t\t\t Please select from the menu options ";
+    cout << "\n\n1) Rooms";
+    cout << "\n\n2) Pasta";
+    cout << "\n\n3) Burger";
+    cout << "\n\n4) Noodles";
+    cout << "\n\n5) Shake";
+    cout << "\n\n6) Chicken Roll";
+    cout << "\n\n7) Sales and Collection";
+    cout << "\n\n8) Exit";
 
+    cout << "\n\n Please Enter your choice!";
+    cin >> choice;
+
+    switch (choice)
+    {
+    case 1:
+        cout << "\n\n Enter the amount of rooms you would like to book: ";
+        cin >> quantity;
+        if (QuantityRooms - SoldRooms >= quantity)
+        {
+            SoldRooms = SoldRooms + quantity;
+            TotalPriceRooms = TotalPriceRooms + quantity * 1000;
+            cout << "\n\n\t\t" << quantity << "room/rooms have been booked!";
+            cout << "\n\n You have " << QuantityRooms - SoldRooms << " left ";
+        }
+        else
+        {
+            cout << "\n\tOnly" << QuantityRooms - SoldRooms << "Rooms reamining";
+            break;
+        }
+
+
+
+    default:
+        break;
+    }
     
 
 }
